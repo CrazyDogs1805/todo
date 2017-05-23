@@ -1,0 +1,72 @@
+*{
+	margin: 0px;
+}
+body{
+	background: #f6f6f6;
+}
+
+
+/*Header*/
+.header{
+	width: 100%;
+	height: 250px;
+}
+h1{
+	text-align: center;
+	color: grey;
+	font-family: Arial;
+	padding-top: 30px;
+}
+.form{
+	margin: 50px;
+}
+input{
+	width: 49.8%;
+	height: 50px;
+	border: none;
+}
+#button{
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+/*Task body*/
+.task{
+	width:100%;
+  	height:auto;
+  	text-align:center;
+}
+
+.taska{
+	width: 30%;
+	height: 300px;
+	background: grey;
+	border: 1px solid #f6f6f6;
+	list-style-type: none;
+	display: inline-block;
+}
+.h{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	background: green;
+	font-size: 30px;
+	font-family: Arial;
+	word-wrap:break-word;
+}
+
+.cont{
+	width: 100%;
+	height: 200px;
+	background: #d32828;
+	font-family: Arial;
+	font-size: 20px;
+	word-wrap:break-word;
+}
+
+p{
+	text-align: left;
+}
