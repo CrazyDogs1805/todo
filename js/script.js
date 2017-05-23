@@ -21,6 +21,11 @@ function add () {
 		console.log('error');
 	}else{
 		MyTask.append(div1);
+		clear();
 	}
 }	
-		
+
+function clear(){
+	var inputH = document.getElementById('inputH').value = "";
+	var inputC = document.getElementById('inputC').value = "";
+}		
