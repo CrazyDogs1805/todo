@@ -53,8 +53,9 @@ input{
 	height: 100px;
 	text-align: center;
 	background: green;
-	font-size: 35px;
+	font-size: 30px;
 	font-family: Arial;
+	word-wrap:break-word;
 }
 
 .cont{
@@ -63,11 +64,9 @@ input{
 	background: #d32828;
 	font-family: Arial;
 	font-size: 20px;
+	word-wrap:break-word;
 }
 
 p{
 	text-align: left;
 }
-
-
-
