@@ -1,31 +1,50 @@
 function add () {
 	var MyTask = document.getElementById('MyTask');
-	var div1 = document.createElement('div');
+	var div = document.createElement('div');
 	var inputH = document.getElementById('inputH').value;
 	var inputC = document.getElementById('inputC').value;
 
-	div1.className = "taska";
+	div.className = "task";
 
 	var head = document.createElement('div');
 	head.className = "h";
 	head.append(inputH);
-	div1.append(head);
 
+	var close = document.createElement('div');
+	close.className = 'close';
+	var p = document.createElement('p');
+	p.innerHTML = "&#10006;";
+	close.append(p);
+	div.append(close);
+	
+	div.append(head);
 
-	var cont = document.createElement('div');
-	cont.className = "cont";
-	cont.append(inputC);
-	div1.append(cont);
+	var content = document.createElement('div');
+	content.className = "contents";
+	content.append(inputC);
+	div.append(content);
+
+	console.log(div);
 
 	if (inputH === "" || inputC === "" ) {
-		console.log('error');
+		console.log('Error');
 	}else{
-		MyTask.append(div1);
+		MyTask.append(div);
 		clear();
+		remove();
 	}
+
 }	
 
 function clear(){
 	var inputH = document.getElementById('inputH').value = "";
 	var inputC = document.getElementById('inputC').value = "";
-}		
+}
+
+function remove	(){
+	$('.close').on('click',function(){
+		$('.task').css('display','none');
+	})
+}	
+
+
