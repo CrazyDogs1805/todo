@@ -54,8 +54,14 @@ input{
 	min-width: 90%;
 	height: 100px;
 	text-align: center;
+<<<<<<< HEAD
 	font-size: 35px;
+=======
+	background: green;
+	font-size: 30px;
+>>>>>>> 5e7d14b1ccb9ef914810d5d8bbfc1ed11fa95b92
 	font-family: Arial;
+	word-wrap:break-word;
 }
 
 .close{
@@ -79,12 +85,17 @@ input{
 	height: 200px;
 	font-family: Arial;
 	font-size: 20px;
+<<<<<<< HEAD
 	word-wrap: break-word;
+=======
+	word-wrap:break-word;
+>>>>>>> 5e7d14b1ccb9ef914810d5d8bbfc1ed11fa95b92
 }
 
 p{
 	text-align: left;
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 1092px) {
 	/*Header*/
@@ -150,3 +161,5 @@ p{
 }
 
 
+=======
+>>>>>>> 5e7d14b1ccb9ef914810d5d8bbfc1ed11fa95b92
