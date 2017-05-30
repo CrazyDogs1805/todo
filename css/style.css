@@ -43,10 +43,9 @@ input{
 .task{
 	width: 30%;
 	height: 300px;
-	background: grey;
-	border: 1px solid #f6f6f6;
-	list-style-type: none;
+	border: 1px solid grey;
 	display: inline-block;
+	background: #f5f5f9;
 }
 
 .h{
@@ -54,21 +53,15 @@ input{
 	min-width: 90%;
 	height: 100px;
 	text-align: center;
-<<<<<<< HEAD
 	font-size: 35px;
-=======
-	background: green;
-	font-size: 30px;
->>>>>>> 5e7d14b1ccb9ef914810d5d8bbfc1ed11fa95b92
 	font-family: Arial;
-	word-wrap:break-word;
+	border-bottom: 1px solid grey;
 }
 
 .close{
 	float: right;
 	width: 7%;
 	height: 15%;
-	background: green;
 	font-size: 30px;
 	margin-left: 7%;
 }
@@ -85,17 +78,12 @@ input{
 	height: 200px;
 	font-family: Arial;
 	font-size: 20px;
-<<<<<<< HEAD
 	word-wrap: break-word;
-=======
-	word-wrap:break-word;
->>>>>>> 5e7d14b1ccb9ef914810d5d8bbfc1ed11fa95b92
 }
 
 p{
 	text-align: left;
 }
-<<<<<<< HEAD
 
 @media screen and (max-width: 1092px) {
 	/*Header*/
@@ -128,22 +116,19 @@ p{
 		margin-top: 20px;
 	}
 
-	.task{
+.task{
 	max-width: 30%;
 	max-height: 400px;
-	background: grey;
 	border: 1px solid #f6f6f6;
-	list-style-type: none;
-	display: inline-block;
 }
 .h{
-	width: 100%;
+	width: 90%;
 	height: 100px;
 	text-align: center;
-	background: green;
 	font-size: 20px;
 	font-family: Arial;
 	word-spacing: break-word;
+	border-bottom: 1px solid grey;
 }
 .contents{
 	width: 100%;
@@ -158,8 +143,15 @@ p{
 	padding-top: 200px;
 }
 
+.close{
+	float: right;
+	width: 7%;
+	height: 15%;
+	background: green;
+	font-size: 30px;
+	margin-left: -5%;
+}
+
 }
 
 
-=======
->>>>>>> 5e7d14b1ccb9ef914810d5d8bbfc1ed11fa95b92

@@ -12,6 +12,7 @@ function add () {
 
 	var close = document.createElement('div');
 	close.className = 'close';
+	
 	var p = document.createElement('p');
 	p.innerHTML = "&#10006;";
 	close.append(p);
